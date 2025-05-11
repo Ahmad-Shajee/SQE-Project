@@ -1,0 +1,84 @@
+
+.photos-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.navigate-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.response-message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.response-message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.response-message.error {
+  background-color: #f8d7da;
+  color: #1c721c;
+}
+
+.upload-section {
+  margin-bottom: 30px;
+}
+
+.custom-file-label {
+  background-color: #5fb654;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.photo-item {
+  width: 150px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.photo-preview {
+  width: 100%;       /* scale to container */
+  height: auto;      /* maintain aspect ratio */
+  max-height: 120px; /* limit height */
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.photo-name {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.delete-photo-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+}
